@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #272e2e;
+    color: rgb(212 212 212);
+    margin-top: 15px;
+}
+
+
+
+.header, #player{
+    text-align: center;
+    color: blueviolet;
+    margin-bottom: 15px;
+}
+
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.col{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: aqua;
+    cursor: pointer;
+}
+
+#result{
+    text-align: center;
+    color: blueviolet;
+    margin-top: 15px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
